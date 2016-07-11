@@ -1,0 +1,41 @@
+{
+  "name": "rollup-plugin-bizubee",
+  "version": "0.0.1",
+  "description": "A Rollup plugin that supports seamless integration of Bizubee modules into bundles.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "test/run.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bizubee/rollup-plugin-bizubee.git"
+  },
+  "keywords": [
+    "bizubee",
+    "rollup",
+    "plugin",
+    "es6",
+    "module",
+    "minify"
+  ],
+  "author": "Gabriel Ratener",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bizubee/rollup-plugin-bizubee/issues"
+  },
+  "homepage": "https://github.com/bizubee/rollup-plugin-bizubee#readme",
+  "dependencies": {
+    "bizubee-compiler": "^1.0.2",
+    "rollup": "^0.33.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0",
+    "rollup-plugin-node-resolve": "^1.7.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}
