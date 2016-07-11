@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "A Rollup plugin that supports seamless integration of Bizubee modules into bundles.",
   "main": "src/index.js",
+  "jsnext:main": "src/index.js",
   "scripts": {
     "test": "test/run.js"
   },
